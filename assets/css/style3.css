@@ -1,0 +1,621 @@
+html, body {
+  max-width: 100%;
+  
+  overflow-x: hidden;
+  
+  }
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 0 60px;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+  }
+  @media only screen and (min-width: 278px)and(max-width: 280px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+   
+  
+  }
+  
+  @media only screen and(min-width: 520px) and (max-width: 540px) {
+    /* For mobile phones: */
+    
+    [class*="col-"] {
+      width: 50%;
+    }
+    
+  }
+  
+  @media only screen  and (min-width: 768px) and (max-width: 1024px) {
+    /* For mobile phones: */
+    /* [class*="col-"] {
+      width: 50%;
+    } */
+}
+     /* autoplay css start */
+
+        figure h3 {
+          font-family: 'Patua One', cursive;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 1.4em;
+          color: #fff
+            
+        }
+        .container1 {
+          box-sizing: content-box;
+          max-width: 1000px;
+            height: 700px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-bottom: 40px;
+            margin-top: 35px;
+            padding-top: 35px;
+        }
+        .indentity {
+          margin: 0!important
+        }
+        figure.testimonial {
+          position: relative;
+          float: left;
+          overflow: hidden;
+          margin: 10px 1%;
+          padding: 0 20px;
+          text-align: center;
+          box-shadow: none !important;
+            margin-top: 20px;
+        }
+        figure.testimonial * {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+          transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+        }
+        
+        figure.testimonial .peopl {
+          position: absolute;
+          bottom: 45px;
+          padding: 0 10px 0 120px;
+          margin: 0;
+          color: #ffffff;
+          -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+        }
+        
+        .slick-slider {
+          position: relative;
+          display: block;
+          box-sizing: border-box;
+          user-select: none;
+          -webkit-touch-callout: none;
+          -khtml-user-select: none;
+          -ms-touch-action: pan-y;
+          touch-action: pan-y;
+          -webkit-tap-highlight-color: transparent;
+        }
+        .slick-list {
+          position: relative;
+          display: block;
+          overflow: hidden;
+          margin: 0;
+          padding: 0;
+        }
+        .slick-list:focus {
+          outline: none;
+        }
+        .slick-list.dragging {
+          cursor: pointer;
+          cursor: hand;
+        }
+        .slick-slider .slick-track, .slick-slider .slick-list {
+          transform: translate3d(0, 0, 0);
+        }
+        .slick-track {
+          position: relative;
+          top: 0;
+          left: 0;
+          display: block;
+        }
+        .slick-track:before, .slick-track:after {
+          display: table;
+          content: '';
+        }
+        .slick-track:after {
+          clear: both;
+        }
+        .slick-loading .slick-track {
+          visibility: hidden;
+        }
+        .slick-slide {
+          display: none;
+          float: left;
+          height: 100%;
+          min-height: 1px;
+        }
+        .slick-slide img {
+          display: block;
+        }
+        .slick-slide.slick-loading img {
+          display: none;
+        }
+        .slick-slide.dragging img {
+          pointer-events: none;
+        }
+        .slick-initialized .slick-slide {
+          display: block;
+        }
+        .slick-loading .slick-slide {
+          visibility: hidden;
+        }
+        .slick-vertical .slick-slide {
+          display: block;
+          height: auto;
+          border: 1px solid transparent;
+        }
+        .slick-btn.slick-hidden {
+          display: none;
+        }
+        
+        .slick-prev, .slick-next {
+          font-size: 0;
+          line-height: 0;
+          position: absolute;
+          top: 40%;
+          display: block;
+          width: 20px;
+          height: 20px;
+          padding: 0;
+          transform: translate(0, -50%);
+          cursor: pointer;
+          color: transparent;
+          border: none;
+          outline: none;
+          background: transparent;
+        }
+        .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+          color: transparent;
+          outline: none;
+          background: transparent;
+        }
+        .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+          opacity: 1;
+        }
+        .slick-prev:before, .slick-next:before {
+          font-family: "FontAwesome";
+          font-size: 20px;
+          line-height: 0.5;
+          opacity: .75;
+            color: #000000;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+            background-color: #000000;
+        }
+        .slick-prev {
+          left: -40px;
+        }
+        .slick-prev:before {
+          content: "";
+        }
+        .slick-next {
+          right: -40px;
+        }
+        .slick-next:before {
+          content: "";
+        }
+        /* /// */
+        /* footer css */
+        footer ul li a{
+          color: white;
+          text-decoration: none;
+        }
+
+        footer ul li a:hover{
+          color: orange;
+          text-decoration: none;
+        }
+        .blackbg1{
+          background-color: #212529;
+          color: white;
+        }
+        .jcb-footer__info__copy {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          color: #fff
+      }
+      .jcb-footer__info__copy {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff
+    }
+    
+    .jcb-footer__info__social {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /* float: right */
+    }
+    
+    .jcb-footer__info__social i {
+        font-size: 24px;
+        margin-left: 10px
+    }
+    
+    .jcb-footer__info__social i:hover {
+        color:rgb(135, 207, 255);
+    }
+
+    /* sticky icons */
+    .icon-bar {
+      position: fixed;
+      top: 38%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      z-index: 15;
+      /* margin-right: 50px; */
+    }
+    
+    .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 15px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 20px;
+    }
+    
+    .icon-bar a:hover {
+      background-color: #000;
+    }
+    
+    .facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .google {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .youtube {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .content {
+      margin-left: 75px;
+      font-size: 30px;
+    }
+
+    /* chat form css */
+    /* auto pop up css start */
+        /* The popup form - hidden by default */
+        #close1sc{
+          display: block;
+          background-color: transparent;
+          font-size: 22px;
+          color: #04AA6D;
+          border-radius: 100%;
+          width: 38px;
+          height: 30px;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          margin-left: 260px;
+        }
+        .subbtn1sc{
+         background-color:#04AA6D ;
+         color: white;
+         width: 100%;
+         top: 0px ;
+         padding: 20px auto;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         border: 1px solid #04AA6D ;
+         border-radius: 5px;
+         /* margin-top: 10px; */
+        }
+        .subbtn1sc:focus{
+          border:#04AA6D ;
+        }
+        .form-popup1sc {
+          /* right: 15px; */
+          /* border: 3px solid #f1f1f1; */
+          /* transform: translate(-50%,-50%); */
+          display: none; 
+          text-align: center;
+          position: fixed;
+          top: 275px;
+          z-index: 5;
+        
+          
+        }
+        
+        /* Add styles to the form container */
+        .form-container1sc {
+          max-width: 350px;
+          /* height: 500px; */
+          height: auto;
+          /* padding: 30px; */
+          padding-bottom: 25px;
+          padding-left: 30px;
+          padding-right: 30px;
+          /* margin: 50px; */
+          background-color: white;
+          left: 50%;
+          top: 50%;
+          border: 2px solid #04AA6D;
+          border-radius: 8px;
+          
+
+        }
+        
+        /* Full-width input fields */
+        .form-container1sc input[type=text], .form-container1sc input[type=password] {
+          width: 100%;
+          /* padding: 15px; */
+          /* margin: 0px 0 22px 0; */
+          /* margin-left: 5px; */
+          margin-right: 5px;
+          /* margin-bottom: 10px; */
+          /* margin-top: 10px; */
+          border: none;
+          background: #f1f1f1;
+          padding: 10px;
+          border: 1px solid gray;
+          margin-bottom: 12px;
+          border-radius: 6px;
+
+        }
+        
+        /* When the inputs get focus, do something */
+        .form-container1sc input[type=text]:focus, .form-container1sc input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+          border-color: #04AA6D;
+        }
+        
+        /* Set a style for the submit/login button */
+        .form-container1sc .btn {
+          background-color: #04AA6D;
+          color: white;
+          padding: 16px 20px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          margin-bottom:10px;
+          opacity: 0.8;
+        }
+        
+        /* Add a red background color to the cancel button */
+        .form-container1sc .cancel {
+          background-color: red;
+        }
+        
+        /* Add some hover effects to buttons */
+        .form-container1sc .btn:hover, .open-button:hover {
+          opacity: 1;
+        }
+        
+        .popup1sc{
+          background-color: lightblue;
+          width: 50%;
+          /* position: absolute; */
+          transform: translate(-50%,-50%);
+          /* left: 50%; */
+          border-radius: 8px;
+          /* font-family: "Poppins",sans-serif; */
+          display: none; 
+          text-align: center;
+          position: relative;
+         
+        }
+        .popcent1sc{
+         text-align: center;
+        
+        }
+        /* auto pop us end */
+
+        .container1sc textarea{
+          width: 100%;
+       
+        
+          border: none;
+          background: #f1f1f1;
+          padding: 10px;
+          border: 1px solid gray;
+          margin-bottom: 12px;
+          border-radius: 6px;
+        }
+         textarea:focus{
+          border-color: #04AA6D;
+
+        }
+        /* chat form css end */
+      .btn-imgA{
+          
+      margin-top: 325px;
+      left: 0px;
+      position: absolute;
+      z-index: 1000;
+      border: 0px;
+      position:fixed;
+      top: 50%;
+      border-radius: 100%;
+      left: 1200px;
+      font-size: 50px;
+      }
+
+    /* chat form css end */
+    .bgcont.icons i{
+      font-size: 30px;
+      margin: 10px;
+
+  }
+  .bgcont   .bi-clock{
+      font-size: 33px;
+      margin-right: 18px;
+  }
+  .bgcont   .bi-geo-alt{
+      font-size: 40px;
+      margin-right: 18px;
+
+  }
+
+  .bgcont  .bi-facebook{
+      font-size: 40px;
+      margin-right: 18px;
+  }
+
+
+
+  /* auto pop up css start */
+        /* The popup form - hidden by default */
+        .bgborder{
+          border: 2px black solid;
+          padding-bottom: 40px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        #close1s{
+            display: block;
+            margin:  0 0 5px auto;
+            background-color: transparent;
+            font-size: 22px;
+            color: black;
+            border-radius: 100%;
+            width: 38px;
+            height: 28px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+          }
+          .subbtn1s{
+           background-color: rgb(23, 22, 22);
+           color: white;
+           width: 100%;
+           top: 0px ;
+           padding: 20px auto;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           /* margin-top: 10px; */
+          }
+          .form-popup1s {
+            /* right: 15px; */
+            /* border: 3px solid #f1f1f1; */
+            /* transform: translate(-50%,-50%); */
+            display: none; 
+            /* margin-left: 200px; */
+            text-align: center;
+            position: absolute;
+            top: 13px;
+            background-color: white;
+            z-index: 20;
+            
+          
+            
+          }
+          
+          /* Add styles to the form container */
+          .form-container1s {
+            max-width: 450px;
+            /* height: 500px; */
+            height: auto;
+            padding: 10px;
+            /* margin: 50px; */
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 20px;
+            background-color: white;
+            left: 50%;
+            top: 50%;
+            /* box-shadow: 3px 2px 2px rgb(52, 51, 51); */
+         
+
+          }
+          
+          /* Full-width input fields */
+          .form-container1s input[type=text], .form-container1s input[type=password],.form-container1s input[type=email] {
+            width: 100%;
+            /* padding: 15px; */
+            /* margin: 0px 0 22px 0; */
+            /* margin-left: 5px; */
+            margin-right: 5px;
+            /* margin-bottom: 10px; */
+            /* margin-top: 10px; */
+            border: none;
+            background: #f1f1f1;
+            padding: 10px;
+            border: 1px solid black;
+          }
+          
+          /* When the inputs get focus, do something */
+          .form-container1s input[type=text]:focus, .form-container1s input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+          }
+
+          .form-container1s input[type=email]:focus {
+            background-color: #ddd;
+            outline: none;
+          }
+          
+          
+          /* Set a style for the submit/login button */
+          .form-container1s .btn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom:10px;
+            opacity: 0.8;
+          }
+          
+          /* Add a red background color to the cancel button */
+          .form-container1s .cancel {
+            background-color: red;
+          }
+          
+          /* Add some hover effects to buttons */
+          .form-container1s .btn:hover, .open-button:hover {
+            opacity: 1;
+          }
+          
+          .popup1s{
+            background-color: lightblue;
+            width: 50%;
+            padding: 30px 40px;
+            /* position: absolute; */
+            transform: translate(-50%,-50%);
+            left: 50%;
+            border-radius: 8px;
+            /* font-family: "Poppins",sans-serif; */
+            display: none; 
+            text-align: center;
+          }
+          .popcent1s{
+           text-align: center;
+          
+          }
+          /* auto pop us end */
